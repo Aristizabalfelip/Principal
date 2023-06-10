@@ -1,0 +1,40 @@
+Console.log: lo que hay dentro de la variable.
+____________________________________________________________________
+null: error a proposito 
+_____________________________________________________________________
+typeof: nos va a decir su tipo de variable cuanedo esta dentro
+_____________________________________________________________________
+% : dnetro de Js este simbolo funciona para dar un residuo... lo que quiere decir
+ es que nos dice si un numero divisible es par o impar. Al ser así nos funciona ya como una logica booleana (Los residuos entre cero 
+son multiplos)
+______________________________________
+** : para elevados o sea el exponente
+___________________________________________
+
+num = num + 10 aqui le decimos que se puede ir sumando su valor mas el suyo por algo más que le pongas dando  asi el valor que tiene mas 10
+ó num = num + num el valor será lo que valdría num al principio y se sumará por las veces que se ha llamado
+
+_________________________________________
+
+num *=10 = será el valor y el simbolo de operacion... osea num que vale 20 le multiplicará su valor por 10 dando de resultado 200
+num+=num supponiendo que num vale 10 se sumará por su valor
+____________________________________________
+== igual pero no de tipo
+= declarar variable
+=== extrictamente igual
+!= desigual
+!== extrictamen desigual
+! el contrario
+________________________________________________
+
+LowerCase para volver algo en minusculas
+slice cortar
+
+https://www.intel.la/content/www/xl/es/support/intel-driver-support-assistant.html?isfromnotifications
+
+______________________________________________________________________
+                         
+                                        Ciclos
+
+For:f
+

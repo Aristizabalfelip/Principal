@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    max-width: 1280px;
+
+
+
+}
+
+header {
+    background-color: #2B2A2B;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 40px;
+    font-size: 14px;
+    align-items: center;
+    color: white;
+    position: sticky;
+}
+
+.Logo1 {
+  
+    display: flex;
+    gap: 7.33px;
+    align-items: center;
+   
+   
+
+
+}
+
+.Logo1 a {
+    font-size: 23.46px;
+    opacity: 86;
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFFFFF ;
+
+}
+
+.L1 {
+    display: flex;
+    font-size: 14px;
+    gap: 32px;
+    color: white;
+
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.Contact {
+    display: flex;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Contact button {
+    background-color: #515051;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 24px;
+    margin-left: 16px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Contact img {
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+}
+
+.Bag {
+    width: 17.66px;
+    height: 20px;
+}
+.Contact .Numero{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Final de estilos del header */
+
+.Sec1 {
+
+    padding: 48px 40px;
+    background-color: #E3DED74D;
+}
+
+.ContPr {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+
+}
+
+.ContT {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+   
+}
+
+.Tt {
+    color: #2A5B45;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.Bot {
+    display: flex;
+    gap: 16px;
+}
+
+.Bt1,
+.Bt2 {
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+.Bt1 {
+    background-color: #1F1815;
+}
+
+.Bt2 {
+    background-color: #2A5B45;
+}
+
+.ContT :nth-child(3) {
+    font-size: 14px;
+
+}
+
+/* Final de la Hero Img */
+.ContImg {
+    padding: 48px 147px;
+    background-image: url(assets/Cristal.png);
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TiCa {
+    padding: 24px;
+    color: white;
+}
+
+.ContCa {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    padding: 0px;
+    gap: 24px;
+   
+    
+}
+
+.ca {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    gap: 16px;
+    width: 316px;
+    border-radius: 8px ;
+
+    
+}
+
+.ca p {
+    font-size: 14px;
+}
+
+.ca h3 {
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+/* Final del segundo contenedor de imagen (tarjetas de condiciones) */
+.ContNov {
+    font-size: 24px;
+    padding: 48px 147px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Nov {
+    font-size: 24px;
+    color: #2A5B45;
+    font-weight: 500;
+}
+
+.ContBag {
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+    
+
+}
+
+.CoRi {
+    background-color: white;
+    padding: 24px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    border-color: #E3DED7;
+    border: 1px solid #E3DED7;
+     transition: background-color 1s;    
+}
+
+.CoRi:hover {
+    background-color: #E3DED7;
+
+}
+
+.Lu {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Pri {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.CoRi :nth-child(2) {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+
+}
+
+.ContNov a {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Link {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+
+.Link img {
+    width: 18px;
+    height: 8px;
+
+}
+
+.BuA {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #2A5B45B2;
+    color: white;
+    border: none;
+}
+
+.CoRi:hover>.BuA {
+    /* Aqui dice que cuando haga hover el CoRi, cambia el estilo de .BuA*/
+    background-color: #2A5B45;
+    transition: background-color 1s;   
+}
+
+/* Final del contenedor novedades */
+
+.PrFre {
+    background-color: #2A5B45;
+    padding: 48px 306px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.ContPre {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.ContPre section {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.ContPre p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.ContPre h3 {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.ContPre section div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ContPre>section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+}
+
+.ContPre button {
+    background-color: transparent;
+    border: none;
+}
+
+.PrFre> :first-child {
+    color: white;
+    font-weight: 500;
+}
+
+.PrFre> :last-child {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+
+.PrFre> :last-child a {
+    color: white;
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+
+.PrFre> :last-child img {
+    width: 18px;
+    height: 8px;
+}
+
+.ContPre hr {
+    border: 1px solid #E3DED7;
+}
+
+/* Final del contenedor preguntas frecuentes */
+
+.Caf {
+    background-color:#F7F5F3;
+    padding: 45px 40px;
+}
+.Caf> :first-child {
+    display: flex;
+    align-items: center;
+    gap: 155px;;
+
+}
+.Caf section> div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   
+}
+.Caf p{
+    font-size: 14px;
+}
+.Caf h2{
+    color: #2A5B45;
+    font-size: 24px;
+    font-weight: 500;
+}
+.DiC {
+    display: flex;
+    gap: 19px;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+}
+.DiC a{
+    color: #000000;
+  
+}
+.DiC img{
+    width: 18px;
+    height: 8px;
+}
+/* Final del contenedor Caf, dudas sobre el paddind del figma y la linea del a */
+
+.ConGen {
+    background-color: #E3DED7;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+   
+}
+.Sect1{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: #6B7280;
+    font-size: 14px;
+   font-weight: 400;
+} 
+.Sect1> :nth-of-type(1) {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+  
+}
+.Sect1> :nth-of-type(2){
+    
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+
+}
+.Supp {
+    display: flex;
+    flex-direction: column;
+    gap:16px ;
+   
+
+}
+.Sect1 h3, a{
+    color: #111827;
+    font-weight: 600;
+}
+
+.Sect1 a{  
+    font-size: 14px;
+}
+
+.Supp div {
+    display: flex;
+    align-items: center;
+    gap: 15px ;
+}
+.Sect1 img{
+    width:18px;
+    height: 18px;
+}
+/* __________________________________ */
+
+.Sect2 {
+    background-color: #FFFFFF;
+    padding: 32px 51px 32px 67px ;
+    display: flex;
+    flex-direction: column;
+   
+          
+}
+.Sect2 input{
+    width:470px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+}
+
+.Sect2, form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.Sect2 form input  {
+    height: 38px;
+    padding: 13px 17px; 
+    outline: none;
+  
+}
+.Sect2 form input:hover {
+   border-color: #9B9EA3;
+}
+.Sect2 form input:focus{
+   
+    border: 2px solid #3F8F6B;
+
+}
+
+.Sect2> {
+    background-color: #2A5B45;
+}
+.Sect2 textarea{
+  margin-top:20px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;   
+  padding:13px 17px;
+  height: 122px;
+}
+
+.Sect2 .Inp{
+    font-size: 14px;
+    display: flex;
+    justify-content:flex-start ;
+    gap: 12px;
+ 
+}
+.Inp input{ 
+   width: 16px;
+   height: 16px;
+   appearance: none;
+   border-radius: 4px;
+   
+
+} 
+.Inp input:checked{
+    background-color: #2A5B45;
+}
+
+.Sect2 .Sub{
+    background-color:#2A5B45;     
+    width: 90px;
+    height: 40px;
+    color:#FFFFFF ;
+}
+
+.Sect2 form div p {
+  font-size: 12px;
+  color: #374151;
+}
+.Sect2 form div{
+    display: flex;
+    flex-direction: column;
+    gap: 4PX;
+}
+.Tel {
+    display: flex;
+    position: relative;
+}
+.Tel select{
+    display: flex;
+    width: 45px;
+    height: 33px;
+    text-align: center;
+    position: absolute;
+    top:2.5px ;
+    left:3px ;
+    border: none;
+}
+.PTel{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Final del formulario-----------------------------*/
+.FoPri{
+  background-color: #1F1815;
+
+}  
+.Log{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 23.46px;
+    gap: 7.33px;
+}
+.CGen{
+ padding: 28.61px 40px  37.73px  40px;
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+ font-size: 14px;
+ color: #FFFFFF
+}
+
+.DSec{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 0.2fr;
+}
+.DSec section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    
+    
+}
+.SecFo{
+    display: flex;
+
+}
+
+.SecFo div{
+    background-color:#515051;
+    padding:  12px 24px;
+    display: flex;
+    gap: 11px;
+    border-radius: 4px;
+    
+    
+}
+
+.DSec section button {
+    color:#FFFFFF ;
+    background-color:transparent;
+    border: none;
+    text-align: start;
+    
+}
+
+.SecFo div:first-of-type{
+   
+    display: flex;
+    align-items: center;
+    
+    
+   
+    
+
+}
+.SecFo div:last-of-type{
+    height: 48px;
+    display: flex;
+    align-items: center;
+   
+    
+    
+
+}
+.SecFo div:first-of-type img {
+    width: 21px;
+    height: 21px;  
+}
+.SecFo div:last-of-type  img{
+    width: 18px;
+    height: 14px;    
+}
+
+.DG{
+    display: flex;
+    gap: 150px;
+}
+
+.FoPri footer{
+    background-color: #2B2A2B;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+.FoPri footer p {
+    color: white;
+    font-size: 14px;
+}
+.FoPri footer button {
+    border: none;
+    background-color: transparent;
+}
